@@ -1,12 +1,6 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-import time
 import sqlite3
 import json
 from datetime import datetime, timedelta
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
 from fastapi import FastAPI
 import db
 from db import cursor
